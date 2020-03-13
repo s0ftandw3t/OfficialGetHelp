@@ -7,8 +7,15 @@
 body {
   margin: 0;
   overflow-x: hidden;
+  height: 100%;
 }
-
+html{
+	height:100%;
+}
+.container{
+	min-height: 100%;
+}
+/*template*/
 /* header */
 .header {
   border-bottom-style: solid;
@@ -72,7 +79,7 @@ body {
 /*footer*/
 .footer {
   width: 100%;
-  margin-top: 125px;
+  margin-top: 20px;
   height: 70px;
   border-style: solid;
   border-width: 0px;
@@ -80,6 +87,7 @@ body {
   border-color: darkgray;
   bottom: 0px;
   position: relative;
+  clear:both;
 }
 #likewhat {
   position: relative;
@@ -89,8 +97,8 @@ body {
   text-decoration: none;
 }
 
+/* css for HomePage.html */
 /* main part */
-
 #students {
   width: 100%;
   opacity: 0.4;
@@ -199,38 +207,27 @@ body {
 #secondpart {
   margin-top: 14px;
 }
-#leftheading {
+#leftheading, #rightheading{
   position: relative;
   font-size: 28px;
   left: 21px;
   top: -10px;
-  opacity: 0;
   transition: 3s;
   color: black;
 }
 
-#rightheading {
-  position: relative;
-  font-size: 28px;
-  left: 21px;
-  top: -10px;
-  opacity: 0;
-  transition: 3s;
-  color: black;
-}
-
-.left:hover #leftheading {
-  opacity: 1;
+#leftheading:hover {
+  color: #54b948;
   letter-spacing: 1.2px;
   transition: 2s;
 }
 .left:hover {
-  opacity: 0.72;
+  opacity: 0.9;
   transition: 2s;
 }
 
-.right:hover #rightheading {
-  opacity: 1;
+#rightheading:hover {
+  color: #54b948;
   transition: 2s;
   letter-spacing: 1.2px;
 }
@@ -259,6 +256,7 @@ body {
   border-width: 2px;
   background-image: url(Sosyal.png);
   margin-right: 19px;
+  transition: 2s;
 }
 
 /* css for The Problem.html */
@@ -284,9 +282,9 @@ body {
 }
 
 #suicidestatistics {
-  max-width: 1500px;
+  
   margin: 100px 120px 100px 120px;
-  position: absolute;
+  position: relative;
 }
 
 #suicidestatistics div p {
@@ -296,7 +294,7 @@ body {
 }
 
 #problemarticles {
-  position: absolute;
+  position: relative;
 }
 .problemarticleheading {
   font-size: 40px;
@@ -308,3 +306,5 @@ body {
 }
 
 /* css for Our Solution.html */
+
+
