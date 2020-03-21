@@ -363,3 +363,44 @@ html {
   position: relative;
   clear: both;
 }
+
+/* CSS for Feedback.html */
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, input[type=tel]:focus, input[type=date]:focus {
+	background-color: #54b948;
+}   
+
+.forms{
+  width: 1240px;
+  margin: auto;
+  margin-top: 50px;
+  
+}
+
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type=button], [type=submit]{
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+  border-style: solid;
+  border-radius: 25px;
+  position: relative;
+  left: 520px;
+  top: 20px;
+  color: white;
+  background-color: #54b948;
+}
+
+.field{
+  border-radius: 10px;
+  border-color: lightgray;
+  background: linear-gradient(to bottom, whitesmoke, white, whitesmoke, white);
+}
