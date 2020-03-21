@@ -407,9 +407,9 @@ input[type=button], [type=submit]{
 
 
 
-/* CSS for FAQs.html */
+/* CSS for FAQs.html and Our Vision.html */
 
-#FACTS{
+.FACTS{
   top: 80px;
   position: relative;
   width: 1150px;
@@ -420,7 +420,7 @@ input[type=button], [type=submit]{
   border-color: gainsboro;
 }
 
-#FACTS h4{
+.FACTS h4, .SFACTS h4{
   text-align: center;
   font-size: 35px;
   left: 6.6%;
@@ -434,7 +434,7 @@ input[type=button], [type=submit]{
   padding-bottom: 20px;
 }
 
-#FACTS p {
+.FACTS p, .SFACTS p {
   text-align: center;
   font-size: 20px;
   left: 6.6%;
@@ -454,4 +454,28 @@ input[type=button], [type=submit]{
   bottom: -1040px;
   position: absolute;
   clear: both;
+}
+
+.OurVisionfooter{
+  width: 100%;
+  margin-top: 0px;
+  height: 70px;
+  border-style: solid;
+  border-width: 0px;
+  border-top-width: 1px;
+  border-color: darkgray;
+  bottom: -1230px;
+  position: absolute;
+  clear: both;
+}
+
+.SFACTS{
+  top: 80px;
+  position: relative;
+  width: 1150px;
+  height: 1580px;
+  margin: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: gainsboro;
 }
