@@ -376,7 +376,7 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, inp
   
 }
 
-input[type=text], input[type=email] {
+input[type=text], input[type=email], input[type=password]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -404,6 +404,8 @@ input[type=button], [type=submit]{
   border-color: lightgray;
   background: linear-gradient(to bottom, whitesmoke, white, whitesmoke, white);
 }
+
+
 
 /* CSS for FAQs.html */
 
