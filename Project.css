@@ -420,7 +420,7 @@ input[type=button], [type=submit]{
   border-color: gainsboro;
 }
 
-.FACTS h4, .SFACTS h4{
+.FACTS h4{
   text-align: center;
   font-size: 35px;
   left: 6.6%;
@@ -434,13 +434,36 @@ input[type=button], [type=submit]{
   padding-bottom: 20px;
 }
 
-.FACTS p, .SFACTS p {
+.SFACTS h4{
+  text-align: center;
+  font-size: 35px;
+  left: 6.6%;
+  position: relative;
+  color: #54b948;
+  border-style: solid;
+  border-color: gainsboro;
+  width: 1000px;
+  border-width: 0;
+  border-bottom-width: 2px;
+  padding-bottom: 20px;
+}
+
+.FACTS p{
   text-align: center;
   font-size: 20px;
   left: 6.6%;
   position: relative;
   width: 1000px;
   margin-bottom: 100px;
+}
+
+.SFACTS p{
+  text-align: center;
+  font-size: 20px;
+  left: 6.6%;
+  position: relative;
+  width: 1000px;
+  margin-bottom: 100px; 
 }
 
 .FAQsfooter {
