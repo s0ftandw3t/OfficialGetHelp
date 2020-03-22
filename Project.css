@@ -553,7 +553,7 @@ input[type=button],
 
 .author{    
     width: 30.813%;
-    height: 550px;
+    height: 700px;
     margin: 1px;
     position: relative;
     border-style: solid;
@@ -585,4 +585,11 @@ input[type=button],
     font-size: 33px;
     position: relative;
     bottom: 76px;
+}
+
+/* css for app building */
+
+.Phoness{
+    width: 230px;
+    height: 460px;
 }
